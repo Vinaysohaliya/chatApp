@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ChatFooter = () => {
+const ChatFooter = ({socket}) => {
 
     const [message, setMessage] = useState('');
 

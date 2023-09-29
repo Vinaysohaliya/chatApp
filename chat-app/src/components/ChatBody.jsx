@@ -38,9 +38,10 @@ const ChatBody = ({ messages }) => {
           )
         )}
 
-        <div className="message__status">
+        {/* <div className="message__status">
           <p>Someone is typing...</p>
         </div>
+        <div ref={lastMessageRed} /> */}
       </div>
     </>
   );
